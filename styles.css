@@ -1,0 +1,106 @@
+/*
+
+CSS rules you may need:
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+Pseudo classes you may need:
+- :hover
+- :first-letter
+- :nth-child
+
+*/
+
+/* Write your CSS code here */
+body{
+    background-color: rgb(216, 242, 251);
+    font-family: arial, sans-serif;
+}
+main{
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 2px;
+}
+h1{
+    background-color: rgb(52, 160, 248);
+    color: white;
+    border-radius: 3px;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+section{
+    background-color: rgb(235, 232, 232);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom:30px;
+    border-radius: 3px;
+}
+section h2{
+
+    border-left: solid 2px rgb(32, 121, 236);
+    border-bottom: solid 2px rgb(32, 121, 236);
+    padding-left: 5px;
+    padding-bottom:5px;
+
+}
+section p:first-letter{
+    font-size:40px;
+    font-weight:bold;
+    color: rgb(32, 121, 236);
+}
+img{
+    border-radius: 15px;
+}
+table{
+    margin-bottom: 20px;
+}
+table tr:hover{
+    background-color: lightcyan !important;
+}
+table tr th{
+    background-color: rgb(52, 160, 248);
+    color: white; 
+}
+table tr td, table tr th{
+    padding: 10px;
+    padding-top: 7px;
+    
+}
+table tr td{
+    border-bottom: solid 2px  rgb(162, 162, 162);
+}
+table tr th:nth-of-type(1){
+    padding-left:10px;
+}
+table tr td:nth-of-type(odd){
+    padding-left:10px;
+}
+table tr:nth-of-type(even){
+    background-color: rgb(194, 194, 194);
+}
